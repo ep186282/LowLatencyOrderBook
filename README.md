@@ -2,6 +2,8 @@
 
 Compares a naive order book (`std::map` + `std::shared_ptr`) against a cache-optimized version to measure the real cost of pointer-chasing and heap allocations, running 100k binary-encoded orders.
 
+![Architecture Diagram](assets/diagram.png)
+
 | File | Description |
 |------|------------|
 | `BookNaive.h` | `std::map` + `std::list` + `std::shared_ptr` |
