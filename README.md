@@ -4,6 +4,8 @@ Compares a naive order book (`std::map` + `std::shared_ptr`) against a cache-opt
 
 ![Architecture Diagram](assets/diagram.png)
 
+![Results](assets/results.png)
+
 | File | Description |
 |------|------------|
 | `BookNaive.h` | `std::map` + `std::list` + `std::shared_ptr` |
